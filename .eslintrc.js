@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-09 16:26:26
- * @LastEditTime: 2021-06-10 10:08:31
+ * @LastEditTime: 2021-06-10 14:39:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vite-vue3-starter/.eslintrc.js
@@ -12,7 +12,12 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: ['plugin:vue/essential', 'airbnb-base', 'plugin:prettier/recommended'],
+  extends: [
+    'plugin:vue/essential',
+    'airbnb-base',
+    'plugin:prettier/recommended',
+    'plugin:jest/recommended'
+  ],
   parserOptions: {
     ecmaVersion: 12,
     parser: '@typescript-eslint/parser',
