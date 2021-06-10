@@ -4,7 +4,8 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"
