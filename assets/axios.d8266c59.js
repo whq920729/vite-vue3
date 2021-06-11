@@ -1,0 +1,1 @@
+import{_ as o}from"./index.aa5c3fbe.js";import{d as e,g as r,o as a,c as s}from"./vendor.5f15ae5b.js";var n=e({name:"Axios",components:{HelloWorld:o}});n.render=function(o,e,n,t,d,l){const m=r("HelloWorld");return a(),s(m,{msg:"axios"})};export default n;
